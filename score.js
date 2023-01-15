@@ -4,7 +4,7 @@ let guestEl = document.getElementById("guest-el")
 let homeEl = document.getElementById("home-el")
 
 function addScore(team, score){
-    if(team = "guest"){
+    if(team === 'guest'){
         scoreGuest += score
         guestEl.textContent = scoreGuest
     } else {
